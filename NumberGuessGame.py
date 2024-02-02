@@ -41,7 +41,6 @@ def guess_game(correct_number, entry, label, attempts_label):
 def main():
     # Generate a random number
     correct_number = np.random.randint(0, 9)
-    print(correct_number)
 
     # Create the main window
     main_window = configure_window(400, 300)
